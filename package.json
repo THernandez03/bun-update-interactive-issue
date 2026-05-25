@@ -1,0 +1,13 @@
+{
+  "name": "bun-update-interactive-issue",
+  "version": "1.0.0",
+  "description": "Minimal repro for bun update -i rendering regression in v1.4.0 — dots scattered across version columns",
+  "dependencies": {
+    "ai": "0.0.1",
+    "git-cz": "1.8.4",
+    "taze": "0.18.0"
+  },
+  "scripts": {
+    "reproduce": "bash reproduce.sh"
+  }
+}
